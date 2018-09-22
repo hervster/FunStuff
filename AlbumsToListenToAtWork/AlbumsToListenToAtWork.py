@@ -1,4 +1,4 @@
-# Author : Herve Nyemeck, Jessy Ma <3
+# Authors : Herve Nyemeck, Jessy Ma <3
 # Copy lines from google doc
 # Randomly pick a line from pre-existing file
 # Output said line and send to user
@@ -13,6 +13,7 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from datetime import datetime
 import os
+import sys
 
 albumListFile = "Test.txt"
 oldAlbumsListFile = "TestOld.txt"
@@ -32,6 +33,10 @@ lines = []
 for line in file:
     lines.append(line)
 size = len(lines)
+
+#if lines = []:                     Add statement for if albums are full/exist in old albums file
+#    print("Out of Albums")
+# else:
 
 album=""
 def generateAlbum():    
@@ -60,6 +65,7 @@ today_album = open(today, "w")
 today_album.write(album)
 today_album.close()
 sendEmail.sendEmail()
+sys.exit()
 #print (file.readlines())
 
 # msg = EmailMessage()
