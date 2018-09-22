@@ -13,6 +13,7 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from datetime import datetime
 import os
+import sys
 
 albumListFile = "Test.txt"
 oldAlbumsListFile = "TestOld.txt"
@@ -60,6 +61,7 @@ today_album = open(today, "w")
 today_album.write(album)
 today_album.close()
 sendEmail.sendEmail()
+sys.exit()
 #print (file.readlines())
 
 # msg = EmailMessage()
