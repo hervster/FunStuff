@@ -15,9 +15,9 @@ from datetime import datetime
 import os
 import sys
 
-albumListFile = "Test.txt"
-oldAlbumsListFile = "TestOld.txt"
-today = "today.txt"
+albumListFile = "Albums to Listen to at Work.txt"
+oldAlbumsListFile = "OldAlbums.txt"
+today = "Today.txt"
 
 def removePreexisting():
     exists = os.path.isfile(today)
