@@ -6,7 +6,7 @@ def sendEmail():
     from email.mime.base import MIMEBase
     from datetime import datetime
 
-    today = "today.txt"
+    today = "Today.txt"
     dateNow = datetime.now()
     msg = MIMEMultipart()
     msg['From'] = 'herveselenium@gmail.com'
@@ -32,6 +32,6 @@ def sendEmail():
     mailserver.ehlo()
     mailserver.login('herveselenium@gmail.com', 'Selen!umRul3s')
 
-    mailserver.sendmail('herveselenium@gmail.com','hervenyemeck@gmail.com',msg.as_string())
+    mailserver.sendmail('herveselenium@gmail.com','hervenyemeck@gmail.com,herve.nyemeck@ansys.com',msg.as_string())
 
     mailserver.quit()
