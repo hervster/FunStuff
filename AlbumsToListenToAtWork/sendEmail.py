@@ -32,6 +32,6 @@ def sendEmail():
     mailserver.ehlo()
     mailserver.login('herveselenium@gmail.com', 'Selen!umRul3s')
 
-    mailserver.sendmail('herveselenium@gmail.com','hervenyemeck@gmail.com,herve.nyemeck@ansys.com',msg.as_string())
+    mailserver.sendmail('herveselenium@gmail.com','hervenyemeck@gmail.com, herve.nyemeck@ansys.com',msg.as_string())
 
     mailserver.quit()
