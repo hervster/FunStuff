@@ -1,4 +1,4 @@
-# Authors : Herve Nyemeck, Jessy Ma <3
+# Author : Herve Nyemeck
 # Copy lines from google doc
 # Randomly pick a line from pre-existing file
 # Output said line and send to user
