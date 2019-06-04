@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "849980261351",
+    "firebase_url": "https://albums-to-listen-to-at-work.firebaseio.com",
+    "project_id": "albums-to-listen-to-at-work",
+    "storage_bucket": "albums-to-listen-to-at-work.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849980261351:android:eab86acb05169213",
+        "android_client_info": {
+          "package_name": "com.example.albumstolistentoatwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849980261351-8oulp2391psl08i1ar27jloj4dvh6pvp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.albumstolistentoatwork",
+            "certificate_hash": "2c21ef359ed385dc7bfeacfe90a63359d1eb3674"
+          }
+        },
+        {
+          "client_id": "849980261351-ttf926eg5qqnk2c9rlvi32p6a93rrsi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiWk5Z3zAKXgAAVgnyR1aaVGhD2zYefDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849980261351-ttf926eg5qqnk2c9rlvi32p6a93rrsi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
