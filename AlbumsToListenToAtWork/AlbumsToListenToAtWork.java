@@ -57,7 +57,7 @@ public class Main {
 
     //Picking random album from list
     public String generateAlbum() {
-        album = "";
+        String album = "";
 
         //Need to put filepath instead of name
         try (Stream<String> albumLines = Files.lines(Paths.get("Albums to Listen to at Work.txt"))) {
