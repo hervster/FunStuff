@@ -30,15 +30,15 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        return generatedList;
     }
 
     //Deleting old files first
     public void removePreexisting() {
         if (todayList.exists()) {
             todayList.delete();
-        } else {
-            return;
-        }
+        } else {}
     }
 
     //Should replace file names with file location on local computer
@@ -63,6 +63,8 @@ public class Main {
         try (Stream<String> albumLines = Files.lines(Paths.get("Albums to Listen to at Work.txt"))) {
             album = albumLines.skip(getRandomNumber()).findFirst().get();
         }
+
+        return album;
     }
 
     //Checking if album is present in oldAlbum list
