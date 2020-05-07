@@ -3,4 +3,5 @@
     <string name="randomizeButton">Randomize!</string>
     <string name="titleHead">Fancy an Album to Listen To?</string>
     <string name="prevAlbum">Previous Albums</string>
+    <string name="DELETEAlbumName">Album Name</string>
 </resources>
