@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Albums To Listen To At Work</string>
+    <string name="app_name">Albums to Listen To At Work</string>
     <string name="randomizeButton">Randomize!</string>
-    <string name="titleHead">Fancy An Album To Listen To?</string>
+    <string name="titleHead">Fancy an Album to Listen To?</string>
     <string name="prevAlbum">Previous Albums</string>
     <string name="DELETEAlbumName">Album Name</string>
 </resources>
